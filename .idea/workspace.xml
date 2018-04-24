@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c14e8c38-1aa9-4671-80f2-d17deca629f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/COMMIT_CONVENTION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vue-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BACKERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/big-table/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/big-table/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/big-table/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/ENV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/lib/memory-stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/lib/monitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/dbmon/lib/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/reorder-list/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/ssr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/ssr/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/ssr/renderToStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/ssr/renderToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/svg/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/uptime/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/gen-release-note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/get-weex-version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/git-hooks/commit-msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/git-hooks/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/install-hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/release-weex.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/commits/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/commits/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/elastic-header/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/elastic-header/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/firebase/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/firebase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/firebase/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/grid/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/grid/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/markdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/markdown/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/modal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/modal/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/move-animations/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/select2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/svg/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/todomvc/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/todomvc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/todomvc/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tree/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/tree/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/global-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/ssr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow/vnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/client-plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/server-plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/types/plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-server-renderer/types/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-template-compiler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-template-compiler/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-template-compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/vue-template-compiler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-template-compiler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-template-compiler/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-template-compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-template-compiler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-vue-framework/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-vue-framework/factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-vue-framework/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/weex-vue-framework/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/codegen/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/codegen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/create-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/on.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/error-detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/entity-decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/filter-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/html-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/text-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/to-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/keep-alive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/global-api/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/global-api/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/global-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/global-api/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/global-api/use.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/bind-object-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/bind-object-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/check-keycodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/render-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/render-slot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/render-static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/resolve-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render-helpers/resolve-slots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/instance/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/observer/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/observer/dep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/observer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/observer/scheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/observer/watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/perf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/util/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/create-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/create-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/create-functional-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/extract-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/get-first-component-child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/is-async-placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/merge-hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/normalize-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/resolve-async-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/helpers/update-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/modules/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/modules/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/vdom/vnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/directives/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/directives/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/modules/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/compiler/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/entry-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/entry-runtime-with-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/entry-runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/entry-server-basic-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/entry-server-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/class-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/runtime/transition-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/web/util/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/modules/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/modules/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/entry-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/entry-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/entry-runtime-factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/components/richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/runtime/text-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/platforms/weex/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/bundle-renderer/create-bundle-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/bundle-renderer/create-bundle-runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/bundle-renderer/source-map-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/create-basic-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/create-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/optimizing-compiler/codegen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/optimizing-compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/optimizing-compiler/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/optimizing-compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/optimizing-compiler/runtime-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/render-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/render-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/template-renderer/create-async-file-mapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/template-renderer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/template-renderer/parse-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/template-renderer/template-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/webpack-plugin/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/webpack-plugin/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/webpack-plugin/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sfc/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/nightwatch.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/async-edge-cases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/async-edge-cases.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/basic-ssr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/basic-ssr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/commits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/todomvc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/e2e/specs/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/classlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/test-object-option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/to-equal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/to-have-been-warned.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/trigger-event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/vdom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/helpers/wait-for-update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/async-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/compile-with-webpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/async-bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/async-foo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/nested-cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/promise-rejection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/fixtures/test.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/jasmine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/ssr-basic-renderer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/ssr-bundle-render.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/ssr-stream.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/ssr-string.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ssr/ssr-template.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/component/component-async.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/component/component-keep-alive.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/component/component-scoped-slot.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/component/component-slot.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/component/component.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/debug.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/bind.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/class.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/cloak.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/for.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/html.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/if.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-checkbox.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-component.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-dynamic.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-file.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-parse.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-radio.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-select.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/model-text.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/on.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/once.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/pre.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/show.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/static-style-parser.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/style.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/directives/text.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/error-handling.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/filter/filter.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/assets.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/compile.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/config.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/extend.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/mixin.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/set-delete.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/global-api/use.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/init.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/methods-data.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/methods-events.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/methods-lifecycle.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/properties.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/instance/render-proxy.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/_scopeId.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/comments.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/components.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/computed.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/data.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/delimiters.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/directives.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/el.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/errorCaptured.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/extends.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/functional.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/inheritAttrs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/inject.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/lifecycle.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/methods.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/mixins.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/name.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/parent.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/props.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/propsData.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/render.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/renderError.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/template.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/options/watch.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/ref.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/transition/inject-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/transition/transition-group.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/transition/transition-mode.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/features/transition/transition.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/karma.base.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/karma.cover.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/karma.dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/karma.sauce.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/karma.unit.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/compiler/codegen.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/compiler/compiler-options.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/compiler/optimizer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/compiler/parser.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/observer/observer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/observer/scheduler.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/observer/watcher.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/server-compiler/optimizer.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/sfc/sfc-parser.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/util/next-tick.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/create-component.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/create-element.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/attrs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/class.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/directive.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/dom-props.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/events.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/modules/style.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/patch/children.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/patch/edge-cases.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/patch/element.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/patch/hooks.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/modules/vdom/patch/hydration.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/append.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/class.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/compile.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/props.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/style.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/compiler/v-model.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/jasmine.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/attrs.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/class.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/components/richtext.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/events.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/framework.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/node.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/weex/runtime/style.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/augmentation-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/es-module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/options-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/plugin-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/ssr-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/test/vue-test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/typings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/vnode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/vue.d.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/instance/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/instance/state.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1147">
+              <caret line="278" column="33" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.base.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/karma.base.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-207" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/features/component/component.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2325">
+              <caret line="147" column="32" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/constants.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1147">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component-slot.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/features/component/component-slot.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2604" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codegen.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/modules/compiler/codegen.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1953" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flow</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vue-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\CHEN\Desktop\source\vue-master\node_modules\eslint" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Component.parent content + v-if" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-names>
+        <test-name value="Component" />
+        <test-name value="parent content + v-if" />
+      </test-names>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.Component.parent content + v-if" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c14e8c38-1aa9-4671-80f2-d17deca629f3" name="Default" comment="" />
+      <created>1524566037840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524566037840</updated>
+      <workItem from="1524566039428" duration="2995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2995000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32925472" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarks/ssr/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarks/svg/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow/ssr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow/compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow/vnode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/git-hooks/commit-msg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/release.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4857">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/instance/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2470">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/util/lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/instance/proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/instance/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/instance/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1147">
+          <caret line="278" column="33" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/karma.base.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/features/component/component-slot.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/modules/compiler/codegen.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1953" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/features/component/component.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2325">
+          <caret line="147" column="32" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
