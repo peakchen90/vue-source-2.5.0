@@ -4,11 +4,16 @@ import { ASSET_TYPES } from 'shared/constants'
 import { warn, extend, mergeOptions } from '../util/index'
 import { defineComputed, proxy } from '../instance/state'
 
+/**
+ * 初始化 Vue.extend 方法
+ * @param Vue
+ */
 export function initExtend (Vue: GlobalAPI) {
   /**
    * Each instance constructor, including Vue, has a unique
    * cid. This enables us to create wrapped "child
    * constructors" for prototypal inheritance and cache them.
+   * 每个实例有一个唯一的 cid
    */
   Vue.cid = 0
   let cid = 1

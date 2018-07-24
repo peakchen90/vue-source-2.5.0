@@ -9,5 +9,9 @@
   ],
   "globals": {
     "__WEEX__": true
+  },
+  "rules": {
+    "no-trailing-spaces": 0,
+    "space-before-function-paren": 0
   }
 }
