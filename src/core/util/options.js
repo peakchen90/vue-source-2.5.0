@@ -359,13 +359,15 @@ function assertObjectType(name: string, value: any, vm: ?Component) {
  * Merge two option objects into a new one.
  * Core utility used in both instantiation and inheritance.
  * Vue 合并选项
+ * 合并覆盖策略
+ * child > parent > mixins > extends
  */
 export function mergeOptions(
   parent: Object,
   child: Object,
   vm?: Component
 ): Object {
-  // 非生产环境检查标签是否可以
+  // 检查组件名是否合法
   if (process.env.NODE_ENV !== 'production') {
     checkComponents(child)
   }
@@ -378,11 +380,13 @@ export function mergeOptions(
   normalizeInject(child, vm)
   normalizeDirectives(child)
   const extendsFrom = child.extends
-  // 如果被合并的对象包含一个 extends 属性，先把这个继承的对象合并到目标对象
+  // 如果合并的对象包含一个 extends 属性，先把这 extends 的对象合并到 options 对象上
+  // extends 权重最低
   if (extendsFrom) {
     parent = mergeOptions(parent, extendsFrom, vm)
   }
-  // 如果被合并的对象包含 mixins 属性，先把这些对象依次合并到目标对象
+  // 如果合并的对象包含 mixins 属性，从左往右把 mixin 对象合并到 options
+  // mixins 权重比 extends 高
   if (child.mixins) {
     for (let i = 0, l = child.mixins.length; i < l; i++) {
       parent = mergeOptions(parent, child.mixins[i], vm)
@@ -390,7 +394,8 @@ export function mergeOptions(
   }
   const options = {}
   let key
-  // 先合并父级，再合并子级
+  // 然后把 parent 对象合并到 options 对象上，再把 child 对象合并到 options 对象
+  // parent 的权重比 child 的权重低
   for (key in parent) {
     mergeField(key)
   }

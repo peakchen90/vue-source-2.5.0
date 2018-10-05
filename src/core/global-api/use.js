@@ -9,14 +9,13 @@ import { toArray } from '../util/index'
 export function initUse (Vue: GlobalAPI) {
   Vue.use = function (plugin: Function | Object) {
     // 如果安装过插件，直接返回（确保同一个插件只注册一次）
-    // this 表示 Vue 对象
     const installedPlugins = (this._installedPlugins || (this._installedPlugins = []))
     if (installedPlugins.indexOf(plugin) > -1) {
       return this
     }
 
     // additional parameters
-    // 第二个开始的参数为附加参数
+    // 第二个开始的参数为附加参数，并将 Vue 添加到第一个参数
     const args = toArray(arguments, 1)
     args.unshift(this)
 

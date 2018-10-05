@@ -64,6 +64,7 @@ export function eventsMixin (Vue: Class<Component>) {
   Vue.prototype.$once = function (event: string, fn: Function): Component {
     const vm: Component = this
     function on () {
+      // 取消之前注册的事件，并调用一次回调
       vm.$off(event, on)
       fn.apply(vm, arguments)
     }
