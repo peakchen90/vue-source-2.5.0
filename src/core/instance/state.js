@@ -121,6 +121,7 @@ function initData (vm: Component) {
     )
   }
   // proxy data on instance
+  // 将data属性代理到实例上 vm.xxx
   const keys = Object.keys(data)
   const props = vm.$options.props
   const methods = vm.$options.methods
@@ -142,6 +143,7 @@ function initData (vm: Component) {
         vm
       )
     } else if (!isReserved(key)) {
+      // 将 vm.xxx 代理到 vm._data.xxx
       proxy(vm, `_data`, key)
     }
   }

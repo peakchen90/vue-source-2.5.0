@@ -376,6 +376,7 @@ export function mergeOptions(
     child = child.options
   }
 
+  // 标准化props、inject、directive
   normalizeProps(child, vm)
   normalizeInject(child, vm)
   normalizeDirectives(child)
